@@ -33,7 +33,7 @@ UNIVERSE = {
     "LIQUIDCASE.NS": "1D Rate Liquid ETF",
 }
 
-LOOKBACKS = [60] #[30, 60, 90, 120]
+LOOKBACKS = [90] #[30, 60, 90, 120]
 INITIAL_CAPITAL = 1_000_000.0  # ₹10,00,000 (10 Lakh)
 # 0.025% per side (0.05% round-trip): covers 0.001% ETF STT, 0.015% stamp duty, NSE/SEBI/GST, DP & slippage
 COST_PER_SIDE = 0.00025
